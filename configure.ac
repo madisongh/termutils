@@ -5,10 +5,10 @@ dnl Copyright (c) 2015, Matthew Madison
 dnl Distributed under license, see LICENSE for more information.
 dnl
 
-AC_INIT([termutils], [0.1.0])
+AC_INIT([termutils], [0.1.1])
 AC_DEFINE([TERMUTILS_VERSION_MAJOR], [0], [Major version])
 AC_DEFINE([TERMUTILS_VERSION_MINOR], [1], [Minor version])
-AC_DEFINE([TERMUTILS_VERSION_MAINT], [0], [Maintenance level])
+AC_DEFINE([TERMUTILS_VERSION_MAINT], [1], [Maintenance level])
 AM_INIT_AUTOMAKE([subdir-objects foreign])
 AM_SILENT_RULES([yes])
 AC_COPYRIGHT([Copyright (c) 2015, Matthew Madison])

@@ -7,5 +7,7 @@
 AUTOMAKE_OPTIONS = subdir-objects foreign
 ACLOCAL_AMFLAGS = -I m4
 
+EXTRA_DIST = LICENSE README.md
+
 bin_PROGRAMS = tsize
 tsize_SOURCES = src/tsize.c src/termio_raw.c src/termio_raw.h
